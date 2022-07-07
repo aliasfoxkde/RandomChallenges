@@ -13,7 +13,7 @@ def one_hundred_prisoners_problem(number_of_boxes_and_prisoners, sample_size):
     timer_script_start = datetime.now()  # Used to calculate script runtime
     attempts_successful = 0  # Count used to determine success rate
 
-    for try_count in range(sample_size):
+    for number_of_prisoner_problems_to_try in range(sample_size):
         # For example, generates a random integer between 1 and N (default 100)
         randomly_assigned_number = randint(1, number_of_boxes_and_prisoners)
         number_to_find = randomly_assigned_number

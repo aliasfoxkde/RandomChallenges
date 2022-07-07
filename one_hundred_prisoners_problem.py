@@ -59,4 +59,8 @@ def one_hundred_prisoners_problem(number_of_boxes_and_prisoners, sample_size):
 
 # Usage:
 # one_hundred_prisoners_problem(number_of_boxes_and_prisoners, sample_size)
+# 
+# Typical Output (49% to 52% "Success Rate"):
+#   518 Success Rate out of 1000 (482 Failures) at 51.8%
+#   The script executed in: 0:00:00.109937
 one_hundred_prisoners_problem(100, 1000)
